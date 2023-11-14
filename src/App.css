@@ -167,7 +167,7 @@ img {
   margin-left: var(--mb-0-5);
 }
 
-.button--flex {
+.button-flex {
   display: inline-flex;
   align-items: center;
 }
@@ -175,8 +175,8 @@ img {
 /* For large devices */
 @media screen and (max-width: 992px) {
   .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
+    margin-left: var(--mb-1);
+    margin-right: var(--mb-1);
   }
 
   .button {
