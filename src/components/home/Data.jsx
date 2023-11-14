@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Data = () => {
+const Data = ({profile}) => {
   return (
     <div className='home_data'>
         <h1 className='home_title'>
-            Mizanur Rahman
+          {profile.name}
             <svg
                   width="36"
                   height="36"
@@ -56,9 +56,9 @@ const Data = () => {
             </svg>
         </h1>
 
-        <h3 className=' home_subtitle'>Software Engineer</h3>
+        <h3 className=' home_subtitle'>{profile.subtitle}</h3>
 
-        <p className='home_description'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi omnis nemo, fuga aspernatur qui aliquid! Eligendi nemo ratione laborum obcaecati necessitatibus? Molestiae rem ex fugit sed perferendis, esse ipsum voluptates?</p>
+        <p className='home_description'>{profile.description}</p>
 
         <a href="#contact" className='button button-flex'>
             Say Hello
