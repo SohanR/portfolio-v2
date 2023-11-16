@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className='header'>
         <nav className='nav container'>
-            <a href="index.html" className='nav_logo' >
+            <a href="#home" className='nav_logo' >
                 Sohan
             </a>
             <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
@@ -51,7 +51,7 @@ const Header = () => {
                     </li>
 
                     <li className='nav_item'>
-                        <a href="c" className='nav_link'>
+                        <a href="#contact" className='nav_link'>
                         <GoPaperAirplane className='nav_icon' />
                             Contact
                         </a>
