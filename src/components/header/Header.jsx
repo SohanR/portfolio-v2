@@ -22,7 +22,7 @@ const Header = () => {
             <div className={Toggle ? "nav_menu show_menu" : "nav_menu"}>
                 <ul className='nav_list grid'>
                     <li className='nav_item'>
-                        <a href="/" className='nav_link active-link'>
+                        <a href="#home" className='nav_link active-link'>
                             <TiHomeOutline className='nav_icon'/>
                             Home
                         </a>
