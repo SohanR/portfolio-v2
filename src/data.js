@@ -1,9 +1,9 @@
 import work1 from './assets/work1.png'
 
 export const profile =  {
-        "name": "Md. Mizanur Rahman",
+        "name": "Mizanur Rahman Sohan",
         "subtitle":"Software Engineer",
-        "description":" test description",
+        "description":"JavaScript enthusiast and software engineer dedicated to crafting flawless digital experiences. Building pixel-perfect solutions for a connected world, one line of code at a time. ",
         "github":"https://github.com/SohanR",
         "linkedin":"https://www.linkedin.com/in/mizanurrahman/",
     }
@@ -12,7 +12,7 @@ export const profile =  {
 export const about = {
     "title":"About Me",
     "subtitle":"My introduction",
-    "description":"test description",
+    "description":"Seasoned Full-Stack Developer proficient in MERN stack and JavaScript technologies, with expertise in TypeScript, MongoDB queries, Nest.js, and Express.js. Experienced in crafting robust web applications, specializing in microservices architecture. Agile-minded, detail-oriented, and driven by a passion for problem-solving, continuously adapting to embrace new technologies for ongoing growth.",
 }
 
 export const skills ={
@@ -40,7 +40,7 @@ export const experience = {
         {
             "name":"Absolute Zero LTD",
             "role":"Shopify Developer (Remote)",
-            "date":"April, 2023 - Aug, 2023"
+            "date":"March, 2021 - Dec, 2022"
         }
     ]
 }
