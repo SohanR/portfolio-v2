@@ -6,13 +6,13 @@ const Works = () => {
     const [active, setActive] = useState(0);
     const [filteredProjects, setFilteredProjects] = useState(projectData);
 
+    const size = projectData.length;
+
     const filterProjectsByTags = (tag) => {
         const filteredArray = projectData.filter((project) => project.tag.includes(tag));
 
 
-        setFilteredProjects(tag === 'all' ? projectData : filteredArray)
-
-        
+        setFilteredProjects(tag === 'all' ? projectData : filteredArray)       
 
     }
 
@@ -26,6 +26,7 @@ const Works = () => {
     }
   return (
     <div>
+        <p className='work_tagline'>Crafted over {size} innovative projects utilizing diverse technologies -All united by the power of JavaScript at their core.</p>
         <div className='work_filters'>
             {
                 projectNav.map((item, i) => (
@@ -37,7 +38,7 @@ const Works = () => {
                         {
                             item.name.toUpperCase()
                         }
-                    </span>
+                    </span>                                
                 ))
             }
         </div>
