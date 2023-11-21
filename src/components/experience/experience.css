@@ -78,14 +78,19 @@
 }
 
 @media screen and (max-width: 460px) {
+  .qualification_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+  }
   .qualification_data {
     gap: 0.5rem;
-    margin-right: -55px;
-    margin-left: -73px;
+    margin-right: -80px;
+    margin-left: -80px;
   }
 
   .qualification_content {
-    width: max-content;
+    width: 240px;
 
     margin: 0;
   }
