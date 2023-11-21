@@ -25,7 +25,7 @@
 }
 
 .home_title {
-  font-size: var(--big-font-size);
+  font-size: var(--h1-font-size);
   margin-bottom: var(--mb-0-25);
 }
 
@@ -139,7 +139,7 @@
 
   .home_description {
     max-width: initial;
-    margin-bottom: var(--mb2-5);
+    margin-bottom: var(--mb-2-5);
   }
 
   .home_img {
@@ -177,6 +177,9 @@
   .home_scroll {
     display: none;
   }
+  .home_description {
+    margin-bottom: var(--mb-2-5);
+  }
 }
 
 @media screen and (max-width: 350px) {
@@ -188,5 +191,9 @@
   .home_hand {
     width: 22px;
     height: 22px;
+  }
+
+  .home_description {
+    margin-bottom: var(--mb-2-5);
   }
 }
