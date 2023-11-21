@@ -1,4 +1,6 @@
-import work1 from './assets/work1.png'
+import work1 from  './assets/work1.png'
+import work2 from  './assets/work2.png'
+
 
 export const profile =  {
         "name": "Mizanur Rahman Sohan",
@@ -56,6 +58,14 @@ export const projectData = [
         "live":"https://bookmyhotels.netlify.app/ ",
         "code":"https://github.com/SohanR/book-my-hotel/ ",
         "tag":['Full Stack','ReactJS','NodeJS','ExpressJS','MongoDB'],
+    },
+    {
+        "title": "Send Email Using React",
+        "details":"This project allows sending emails directly from the client-side using the EmailJS library, eliminating the need for a backend service like Node.js or a mail server setup.",
+        "image":work2,
+        "live":"https://react-send-email.netlify.app/",
+        "code":"https://github.com/SohanR/send-email-using-react",
+        "tag":['Frontend','ReactJS','EmailJS'],
     },
 ]
 
