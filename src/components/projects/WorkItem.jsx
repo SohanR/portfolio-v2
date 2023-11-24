@@ -4,7 +4,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const WorkItem = ({item}) => {
   const techList = () =>{
     
-     const excludedTags = ['Full Stack', 'Frontend'];
+     const excludedTags = ['Full Stack', 'Frontend','Misc'];
 
      const shouldExclude = excludedTags.some(tag => item.tag.includes(tag));
 
@@ -21,10 +21,11 @@ const WorkItem = ({item}) => {
         <p className='work_tags'>Tech: {techList()}</p>
         
         <div className='work_buttons'>
-            <a href={item.live} className='work_button'>
+        
+            <a href={item.live} className='work_button' rel='noreferrer' target='_blank'>
                 Demo <FaArrowRightLong  className='work_button-icon'/>
             </a>
-            <a href={item.code} className='work_button'>
+            <a href={item.code} className='work_button' rel='noreferrer' target='_blank'>
                 Code <FaArrowRightLong  className='work_button-icon'/>
             </a>            
         </div>
