@@ -37,11 +37,11 @@ export const skills ={
     "title":"Skills",
     "subtitle":"My Technical Level",
     "frontend":{
-        "title":"Frontend Developer",
+        "title":"Frontend",
         "skills":["React","Redux","React Native","Next JS"]
     },
     "backend":{
-        "title":"Backend Developer",
+        "title":"Backend",
         "skills":["Node.js","Express.js","Nest.js","MongoDB"]
     }
 }
