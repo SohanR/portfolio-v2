@@ -10,6 +10,11 @@ import work9 from  './assets/work9.png'
 import work10 from  './assets/work10.png'
 import work11 from  './assets/work11.png'
 import work12 from  './assets/work12.png'
+import work13 from  './assets/work13.png'
+import work14 from  './assets/work14.png'
+import work15 from  './assets/work15.png'
+import work16 from  './assets/work16.png'
+
 
 
 
@@ -154,7 +159,7 @@ export const projectData = [
         "image":work8,
         "live":"https://sohanr.github.io/lyric-search/",
         "code":"https://github.com/SohanR/lyric-search",
-        "tag":['VanilaJS'],
+        "tag":['VanillaJS'],
     },
     {
         "title": "Meal Search",
@@ -162,8 +167,41 @@ export const projectData = [
         "image":work12,
         "live":"https://sohanr.github.io/meal-search/",
         "code":"https://github.com/SohanR/meal-search",
-        "tag":['VanilaJS'],
+        "tag":['VanillaJS'],
     },
+    {
+        "title": "Currency Converter",
+        "details":"A simple Currency Converter. It will give you exchange rate from one currency to onether currency..",
+        "image":work15,
+        "live":"https://sohanr.github.io/Currency-Converter/",
+        "code":"https://github.com/SohanR/Currency-Converter",
+        "tag":['VanillaJS'],
+    },
+    {
+        "title": "Drum Kit",
+        "details":"The project allows users to simulate playing drums by pressing corresponding keys, showcasing proficiency in front-end development and user interface design.",
+        "image":work13,
+        "live":"https://sohanr.github.io/Drum-kit/",
+        "code":"https://github.com/SohanR/Drum-kit",
+        "tag":['VanillaJS'],
+    },
+    {
+        "title": "Type Fast",
+        "details":"typing mini-game utilizing Vanilla JavaScript, where players are challenged to swiftly type displayed words for scores and time extension. Implemented features include difficulty level selection, dynamic time extension upon accurate word typing, and a game-over scenario upon time expiration.",
+        "image":work14,
+        "live":"https://sohanr.github.io/type-fast/",
+        "code":"https://github.com/SohanR/type-fast",
+        "tag":['VanillaJS'],
+    },
+    {
+        "title": "To Do",
+        "details":"A simple to do app with simple animation effect with feature of filtering, mark as done and deleting.",
+        "image":work16,
+        "live":"https://github.com/SohanR/todo-list",
+        "code":"https://sohanr.github.io/todo-list/",
+        "tag":['VanillaJS'],
+    },
+    
 ]
 
 
@@ -201,7 +239,7 @@ export const projectNav = [
         "name": 'React Native'
     },
     {
-        "name": 'VanilaJS'
+        "name": 'VanillaJS'
     },
     {
         "name": 'Leetcode'
